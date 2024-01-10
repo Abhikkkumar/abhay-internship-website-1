@@ -1,0 +1,30 @@
+.my-form-mob {
+    padding: 0;
+    width: 100%;
+    animation: bg_slider_mobile 16s ease-in-out infinite;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+  }
+  @keyframes bg_slider_mobile {
+    0%,
+    100% {
+      background-image: url("./img/mobile/abraham-garcia-pPWO8Eajh5I-unsplash.jpg");
+    }
+    25% {
+      background-image: url("./img/mobile/bodi-raw-1qpTaobq3Z0-unsplash.jpg");
+    }
+    50% {
+      background-image: url("./img/mobile/gautam-ramuvel-8s5awTUts_w-unsplash.jpg");
+    }
+    75% {
+      background-image: url("./img/mobile/igor-stepanov-amvjVnfYtYQ-unsplash.jpg");
+    }
+  }
+  @media (min-width:769px){
+      .my-form-mob{
+          display: none;
+      }
+  }
+  

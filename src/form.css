@@ -1,0 +1,90 @@
+.my-form {
+  --sidebar-bg-color: #1b1525;
+  --icon-white: #fff;
+  --icon-blue: #3b5dc0;
+  --icon-blue-hover: #4560af;
+}
+.details h1 {
+  color: #fff;
+}
+.btn-blue {
+  background-color: var(--icon-blue);
+  color: var(--icon-white);
+}
+.btn-blue:hover {
+  background-color: var(--icon-blue-hover);
+  color: var(--icon-white);
+}
+/* .form-arrow {
+  font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 0, "opsz" 24;
+  color: var(--icon-blue) !important;
+}
+
+.form-location {
+  font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 0, "opsz" 24;
+  color: var(--icon-blue) !important;
+}
+.form-calendar {
+  font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 0, "opsz" 24;
+  color: var(--icon-blue) !important;
+} */
+/* .transit-arrow {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
+  color: #fff;
+  background-color: var(--icon-blue) !important;
+  height: 1.8rem;
+  width: 1.8rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.my-form {
+  padding: 0;
+  width: 100%;
+  animation: bg_slider_Desktop 16s ease-in-out infinite;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 60vh;
+}
+@keyframes bg_slider_Desktop {
+  0%,
+  100% {
+    background-image: url("./img/desktop/church-of-the-king-e6ZlCzBnGWI-unsplash.jpg");
+  }
+  25% {
+    background-image: url("./img/desktop/jonathan-borba-LnggkK8864c-unsplash.jpg");
+  }
+  50% {
+    background-image: url("./img/desktop/juan-encalada-6mcVaoGNz1w-unsplash.jpg");
+  }
+  75% {
+    background-image: url("./img/desktop/mario-sessions-0TmYp58QVNQ-unsplash.jpg");
+  }
+}
+.outer {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  min-height: 60vh;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem;
+  z-index: 100;
+  min-height: 60vh;
+}
+
+@media (max-width: 768px) {
+  .my-form {
+    display: none;
+  }
+}
+
+.form-button-container button {
+  margin: 4px;
+}
