@@ -19,8 +19,8 @@ export default function FormMob() {
     <div className="my-form-mob container-fluid">
       <div className="outer">
         <div className="details">
-          <h1>Book Bus Tickets</h1>
-          <div className="form-button-container mb-4 mb-md-3">
+          <h1 className="cursive-heading">Delivering Excellence in every Byte</h1>
+          {/* <div className="form-button-container mb-4 mb-md-3">
             <button
               type="button"
               class={classBtnOne}
@@ -39,7 +39,7 @@ export default function FormMob() {
             >
               Rental
             </button>
-          </div>
+          </div> */}
           {/* <div className="form-sub-container container">
             {row0 && (
               <div className="row row-0 gx-0 ">
